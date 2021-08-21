@@ -114,6 +114,10 @@ a:visited{
     text-decoration: none;
 }
 
+a {
+    color: inherit;
+} 
+
 #section-contact{
     background-color: black;
     margin-top: 20px;
