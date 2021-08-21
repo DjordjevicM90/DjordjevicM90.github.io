@@ -3,6 +3,10 @@ html, body { height: 100%; }
 
 #main-page { min-height: 100% }
 
+a {
+    color: inherit;
+} 
+
 .section-video video {
     position: fixed;
     width: 100%;
@@ -113,10 +117,6 @@ a:visited{
 #font-git a:link,:visited{
     text-decoration: none;
 }
-
-a {
-    color: inherit;
-} 
 
 #section-contact{
     background-color: black;
