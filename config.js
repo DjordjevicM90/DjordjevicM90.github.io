@@ -10,4 +10,12 @@ $(function(){
     $("#navbar-scroll").click(function(){
         $(".navbar").toggleClass("navbar-bg");
     });
+    
+     //Preloader
+    preloaderFadeOutTime = 500;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
 });
