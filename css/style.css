@@ -53,8 +53,6 @@ html, body { height: 100%; }
     font-size: 1.5rem;
 }
 
-a { color: inherit; } 
-
 .navbar a:link,
 a:visited{
     color: #ffff;
@@ -180,4 +178,6 @@ a:visited{
         background: rgb(0, 0, 0, 0.9);
         transition: 0.9s ease-in-out;
     }
+    
+    a { color: inherit; } 
 }
